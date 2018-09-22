@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#0f8e84</color>
     <color name="colorAccent">#FF4081</color>
     <color name="bg">#c7faee</color>
+    <color name="content">#f4fcfa</color>
+    <color name="abu">#cad2d0</color>
+    <color name="navy">#FF11253D</color>
+    <color name="putih">#fafbfc</color>
+
 </resources>
