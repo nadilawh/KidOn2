@@ -19,7 +19,8 @@
         <activity android:name=".CuciDarah" />
         <activity android:name=".NewsTips" />
         <activity android:name=".detail_news" />
-        <activity android:name=".pasien"></activity>
+        <activity android:name=".pasien" />
+        <activity android:name=".laporan"></activity>
     </application>
 
 </manifest>
