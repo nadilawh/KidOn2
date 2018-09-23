@@ -10,6 +10,16 @@
     <color name="abu">#cad2d0</color>
     <color name="navy">#FF11253D</color>
     <color name="putih">#fafbfc</color>
+<<<<<<< HEAD
     <color name="muda">#89f5dc</color>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    <color name="muda">#89f5dc</color>
+>>>>>>> 634b64117f4a42fd1bafb89e5ce4e4dbcce0c002
+>>>>>>> 890c243d74c16158b31b9a7e96e77a97505ae40c
+>>>>>>> 35c5e17e18ab5943d08cfa369af95dbb117ee615
     <color name="hitam">#030303</color>
 </resources>
