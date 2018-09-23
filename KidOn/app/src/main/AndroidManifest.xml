@@ -23,7 +23,8 @@
         <activity android:name=".laporan"></activity>
         <activity android:name=".AsupanCairan" />
         <activity android:name=".PasienDokter" />
-        <activity android:name=".ProfilDokter"></activity>
+        <activity android:name=".ProfilDokter" />
+        <activity android:name=".MenuMakanan"></activity>
     </application>
 
 </manifest>
