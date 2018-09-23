@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg"
     tools:context="com.example.asus.kidon.NewsTips"
     android:orientation="vertical">
 
@@ -15,10 +16,9 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="72dp"
             android:text="News and Tips"
             android:textAlignment="center"
             android:textColor="#47525E"
@@ -42,7 +42,7 @@
             android:layout_width="416dp"
             android:layout_height="117dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textView4"
+            android:layout_below="@+id/textView12"
             android:src="@drawable/rectangle_dongker"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +67,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/imageViewNews"
             android:text="Pasien gagal ginjal berpuasa, amankah?"
-            android:textColor="#FFFF"
+            android:textColor="#000"
             android:textSize="7pt" />
 
         <Button
@@ -92,7 +92,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:text="Kamis, 20 Sep 2018 19.00 WIB"
-            android:textColor="#FFFF"
+            android:textColor="#000"
             android:textSize="5pt"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -140,7 +140,7 @@
             android:layout_above="@+id/textView8"
             android:layout_alignStart="@+id/textView8"
             android:text="Daftar Makanan yang Harus Dibatasi Penderita Sakit Ginjal"
-            android:textColor="#FFFF"
+            android:textColor="#000"
             android:textSize="7pt" />
 
         <Button
@@ -165,7 +165,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:text="Kamis, 20 Sep 2018 20.00 WIB"
-            android:textColor="#FFFF"
+            android:textColor="#000"
             android:textSize="5pt"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -208,7 +208,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/imageViewNews"
             android:text="Jangan terjebak! yuk ungkap mitos fakta penyakit ginjal"
-            android:textColor="#FFFF"
+            android:textColor="#000"
             android:textSize="7pt" />
 
         <Button
@@ -233,7 +233,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:text="Rabu, 20 Sep 2018 19.00 WIB"
-            android:textColor="#FFFF"
+            android:textColor="#000"
             android:textSize="5pt"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -276,7 +276,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/imageViewNews"
             android:text="Cara pasien gagal ginjal kronis bertahan hidup lebih lama"
-            android:textColor="#FFFF"
+            android:textColor="#000"
             android:textSize="7pt" />
 
         <Button
@@ -301,7 +301,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:text="Rabu, 20 Sep 2018 19.00 WIB"
-            android:textColor="#FFFF"
+            android:textColor="#000"
             android:textSize="5pt"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -344,7 +344,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/imageViewNews"
             android:text="Cuci darah, solusi bagi pasien gagal ginjal"
-            android:textColor="#FFFF"
+            android:textColor="#000"
             android:textSize="7pt" />
 
         <Button
