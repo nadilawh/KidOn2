@@ -10,12 +10,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/back"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Today"
+            android:textSize="12pt"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="200dp"
-            android:layout_height="100dp" />
-        <TextView
-            android:layout_width="200dp"
-            android:layout_height="100dp" />
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="12/09/2018"
+            android:textSize="12pt"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <ImageView
@@ -40,16 +57,141 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="@color/navy">
+            <View android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="237dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="MASUK"
+                    android:textColor="@color/putih"
+                    android:textSize="10pt"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="237dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:text="Prosentase kebutuhan cairan yang masuk ke tubuh"
+                    android:textColor="@color/putih"
+                    android:textSize="6pt" />
+            </LinearLayout>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="17dp"
+                    android:orientation="vertical"
+                    android:src="@drawable/circle_shape_white" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="263dp"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="237dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="75%"
+                        android:textColor="@color/hitam"
+                        android:textSize="10pt"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="237dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:text="1,5 liter"
+                        android:textColor="@color/hitam"
+                        android:textSize="6pt" />
+                </LinearLayout>
+            </RelativeLayout>
+
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="@color/navy">
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@color/navy">
+            <View android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="237dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="KEKURANGAN"
+                        android:textColor="@color/putih"
+                        android:textSize="10pt"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="237dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:text="Prosentase kebutuhan cairan yang belum terpenuhi"
+                        android:textColor="@color/putih"
+                        android:textSize="6pt" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="17dp"
+                    android:orientation="vertical"
+                    android:src="@drawable/circle_shape_white" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="263dp"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="237dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="25%"
+                        android:textColor="@color/hitam"
+                        android:textSize="10pt"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="237dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:text="0,5 liter"
+                        android:textColor="@color/hitam"
+                        android:textSize="6pt" />
+                </LinearLayout>
+            </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
 
