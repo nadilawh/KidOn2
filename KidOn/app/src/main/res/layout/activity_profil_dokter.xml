@@ -227,7 +227,7 @@
                 android:layout_marginTop="10dp"
                 android:text="Jam Praktik"
                 android:textAlignment="center"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/signupColor"
                 android:textSize="9pt"
                 android:textStyle="bold" />
 
@@ -237,9 +237,8 @@
                 android:layout_height="wrap_content"
                 android:text="Senin - Jumat / 09.00 - 17.00"
                 android:textAlignment="center"
-                android:textColor="@color/colorPrimary"
-                android:textSize="11pt"
-                android:textStyle="bold" />
+                android:textColor="@color/signupColor"
+                android:textSize="7pt" />
         </LinearLayout>
 
         <TextView

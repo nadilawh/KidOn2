@@ -7,11 +7,33 @@
     tools:context="com.example.asus.kidon.pasien">
 
 
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/back1" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:src="@drawable/air"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="260dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil Pasien"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColor="#47525E"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:textSize="8pt"
+       />
 
         <ImageView
             android:id="@+id/imageViewTips"
@@ -46,62 +68,115 @@
             android:textColor="#FFF"
             android:textSize="7pt" />
 
-        <ImageView
-            android:id="@+id/doctor"
-            android:layout_width="400dp"
-            android:layout_height="60dp"
-            android:layout_alignEnd="@+id/drug"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="32dp"
-            android:src="@drawable/laporan" />
+    <View
+        android:id="@+id/grid"
+        android:layout_width="180dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="305dp"
+        android:background="@color/muda" />
 
         <ImageView
-            android:id="@+id/drug"
-            android:layout_width="400dp"
-            android:layout_height="60dp"
-            android:layout_below="@+id/imageViewTips"
-            android:layout_marginTop="16dp"
-            android:layout_toStartOf="@+id/textView2"
-            android:src="@drawable/medical" />
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:src="@drawable/medical"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="70dp"/>
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Takaran Obat"
+        android:textAlignment="center"
+        android:textColor="#183091"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="7pt"
+        />
+
+    <View
+        android:id="@+id/grid1"
+        android:layout_width="180dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="305dp"
+        android:background="@color/muda" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:src="@drawable/laporan"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="260dp"
+
+        />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekam Medis"
+        android:textAlignment="center"
+        android:textColor="#183091"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="7pt"
+
+    />
+
+    <View
+        android:id="@+id/grid3"
+        android:layout_width="180dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="415dp"
+        android:background="@color/muda" />
 
         <ImageView
-            android:id="@+id/medical"
-            android:layout_width="400dp"
-            android:layout_height="60dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignTop="@+id/drug"
-            android:layout_marginStart="200dp"
-            android:src="@drawable/drug" />
-
-        <ImageView
-            android:id="@+id/cairan"
-            android:layout_width="400dp"
-            android:layout_height="60dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="34dp"
-            android:layout_marginStart="211dp"
-            android:src="@drawable/air" />
-
-    </RelativeLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        >
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:src="@drawable/drug"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="70dp"/>
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Profil Pasien"
-            android:textColor="#000"
-            android:textSize="8pt"
-            android:layout_marginTop="12dp"
-            android:layout_marginLeft="50dp"
-            />
+            android:text="Profil Dokter"
+            android:textAlignment="center"
+            android:textColor="#183091"
+            android:layout_marginTop="477dp"
+            android:layout_marginLeft="52dp"
+            android:textSize="7pt" />
 
-    </LinearLayout>
+    <View
+        android:id="@+id/grid4"
+        android:layout_width="180dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="415dp"
+        android:background="@color/muda" />
 
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:src="@drawable/air"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="260dp"/>
+    />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asupan Cairan"
+            android:textAlignment="center"
+            android:textColor="#183091"
+            android:layout_marginTop="477dp"
+            android:layout_marginLeft="232dp"
+            android:textSize="7pt" />
 
 </RelativeLayout>
+

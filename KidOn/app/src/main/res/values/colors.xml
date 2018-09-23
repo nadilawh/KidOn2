@@ -4,11 +4,19 @@
     <color name="colorPrimaryDark">#0f8e84</color>
     <color name="colorAccent">#FF4081</color>
     <color name="bg">#c7faee</color>
+    <color name="muda">#89f5dc</color>
     <color name="white">#FFFFFF</color>
     <color name="signupColor">#066e8a</color>
     <color name="content">#f4fcfa</color>
     <color name="abu">#cad2d0</color>
     <color name="navy">#FF11253D</color>
     <color name="putih">#fafbfc</color>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    <color name="muda">#89f5dc</color>
+>>>>>>> 634b64117f4a42fd1bafb89e5ce4e4dbcce0c002
+>>>>>>> 890c243d74c16158b31b9a7e96e77a97505ae40c
     <color name="hitam">#030303</color>
 </resources>
