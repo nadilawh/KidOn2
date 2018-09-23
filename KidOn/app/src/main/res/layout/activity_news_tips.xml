@@ -57,7 +57,7 @@
             android:layout_height="82dp"
             android:layout_centerVertical="true"
             android:layout_toStartOf="@+id/textView3"
-            android:src="@drawable/news"
+            android:src="@drawable/news1"
             tools:ignore="DuplicateIds" />
 
         <TextView
@@ -131,7 +131,7 @@
             android:layout_height="82dp"
             android:layout_centerVertical="true"
             android:layout_toStartOf="@+id/textView5"
-            android:src="@drawable/news" />
+            android:src="@drawable/news1" />
 
         <TextView
             android:id="@+id/textView5"
@@ -198,7 +198,7 @@
             android:layout_height="82dp"
             android:layout_centerVertical="true"
             android:layout_toStartOf="@+id/textView6"
-            android:src="@drawable/news"
+            android:src="@drawable/news1"
             tools:ignore="DuplicateIds" />
 
         <TextView

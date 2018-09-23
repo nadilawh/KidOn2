@@ -11,6 +11,9 @@
     <color name="abu">#cad2d0</color>
     <color name="navy">#FF11253D</color>
     <color name="putih">#fafbfc</color>
+<<<<<<< HEAD
+=======
     <color name="muda">#89f5dc</color>
+>>>>>>> 634b64117f4a42fd1bafb89e5ce4e4dbcce0c002
     <color name="hitam">#030303</color>
 </resources>
