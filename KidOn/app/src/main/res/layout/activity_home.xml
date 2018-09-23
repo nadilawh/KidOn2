@@ -9,32 +9,28 @@
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="match_parent"
-        android:layout_height="263dp"
+        android:layout_height="250dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="42dp"
+        android:layout_below="@+id/imageView"
         app:srcCompat="@drawable/glass" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="82dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView5"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="-42dp"
-        android:layout_marginStart="14dp"
-        android:text="Today"
+        android:layout_alignEnd="@+id/imageView20"
+        android:layout_alignParentTop="true"
         android:fontFamily="sans-serif"
+        android:text="Today"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView5"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="-42dp"
-        android:layout_marginEnd="26dp"
+        android:layout_alignEnd="@+id/textView22"
+        android:layout_below="@+id/textView19"
+        android:layout_marginTop="18dp"
         android:text="Thursday, April 13th 2018 18:30" />
 
     <TextView
@@ -76,7 +72,8 @@
         android:layout_alignBottom="@+id/imageView15"
         android:layout_alignStart="@+id/textView13"
         android:src="@drawable/imgprofile"
-        android:visibility="visible" />
+        android:visibility="visible"
+        android:id="@+id/imageView6" />
 
     <View
         android:id="@+id/imageView11"
@@ -259,6 +256,14 @@
         android:layout_alignStart="@+id/imageView22"
         android:layout_alignTop="@+id/imageView23"
         app:srcCompat="@drawable/setting" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/logout" />
 
 
 </RelativeLayout>

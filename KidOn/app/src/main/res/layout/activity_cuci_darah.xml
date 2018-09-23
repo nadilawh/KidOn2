@@ -7,6 +7,23 @@
     android:background="@color/bg"
     tools:context="com.example.asus.kidon.CuciDarah">
 
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/circle_shape_white"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/doctor"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="150dp"
+        />
+        />
     <View
         android:id="@+id/grid"
         android:layout_width="410dp"
@@ -31,31 +48,19 @@
         android:textStyle="bold"
         android:layout_marginTop="12dp"
         android:layout_marginLeft="50dp"
-        android:textSize="8pt"
+        android:textSize="9pt"
         />
     />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginTop="70dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="133dp"
-            android:backgroundTint="@color/colorPrimary"
-            android:src="@drawable/ginjal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.021" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="251dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
             android:layout_marginLeft="98dp"
             android:text="Jadwal Cuci Darah"
             android:textColor="#47525E"
