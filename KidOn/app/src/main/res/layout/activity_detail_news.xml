@@ -13,10 +13,11 @@
 
 
         >
+
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="215dp"
-            android:layout_height="31dp"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
@@ -38,7 +39,6 @@
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="4dp"
             android:text="Pasien gagal ginjal berpuasa, amankah?"
             android:textColor="#47525E"
             android:textSize="10pt"

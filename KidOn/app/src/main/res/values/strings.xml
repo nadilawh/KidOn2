@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KidOn</string>
+    <string name="nama_dokter">dr. Rini Puspita</string>
+    <string name="todo">TODO</string>
+    <string name="keahlian">Dokter Spesialis Penyakit dalam</string>
+
 </resources>

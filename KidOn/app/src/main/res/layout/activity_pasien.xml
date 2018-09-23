@@ -1,9 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.asus.kidon.pasien">
 
-</android.support.constraint.ConstraintLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewTips"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/person1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="157dp"
+            android:layout_height="26dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imageViewTips"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:text="M. Rofi Hidayat"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="7pt" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="157dp"
+            android:layout_height="26dp"
+            android:layout_alignStart="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:textStyle="italic"
+            android:text="55th"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="7pt" />
+
+        <ImageView
+            android:id="@+id/doctor"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/drug"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/laporan" />
+
+        <ImageView
+            android:id="@+id/drug"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/imageViewTips"
+            android:layout_marginTop="16dp"
+            android:layout_toStartOf="@+id/textView2"
+            android:src="@drawable/medical" />
+
+        <ImageView
+            android:id="@+id/medical"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/drug"
+            android:layout_marginStart="200dp"
+            android:src="@drawable/drug" />
+
+        <ImageView
+            android:id="@+id/cairan"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginStart="211dp"
+            android:src="@drawable/air" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profil Pasien"
+            android:textColor="#000"
+            android:textSize="8pt"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

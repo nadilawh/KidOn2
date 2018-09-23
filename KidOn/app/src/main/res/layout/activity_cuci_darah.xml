@@ -11,14 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
         <ImageView
             android:layout_width="114dp"
             android:layout_height="118dp"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="124dp"
             android:backgroundTint="@color/colorPrimary"
-            android:src="@drawable/circle_shape"
+            android:src="@drawable/ginjal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -68,8 +68,8 @@
             <ImageView
                 android:layout_width="200dp"
                 android:layout_height="35dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginLeft="80dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="87dp"
                 android:src="@drawable/rectangle_shape"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -81,8 +81,8 @@
             <TextView
                 android:layout_width="192dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="85dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="15dp"
                 android:width="167.5dp"
                 android:height="32.5dp"
                 android:fontFamily="Abril Fatface"
@@ -95,12 +95,21 @@
                 app:layout_constraintHorizontal_bias="0.436"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.583" />
+                app:layout_constraintVertical_bias="0.583"
+                android:id="@+id/textView12" />
 
         </RelativeLayout>
 
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="1200dp"
+        android:layout_height="900dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/calendar" />
 
 
 </RelativeLayout>
